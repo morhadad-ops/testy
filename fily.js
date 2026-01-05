@@ -1,3 +1,3 @@
 export default function fily() {
-  return 'fily';
+  return 'fly';
 };
