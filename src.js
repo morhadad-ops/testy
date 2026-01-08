@@ -1,7 +1,13 @@
 //this is the real MVP
-
 const MVP = () => {
     return "Most Valuable Player";
 }
 
-export default MVP;
+
+const main = () => {
+  console.log("Hello, World!");
+};
+
+main();
+export { MVP }; 
+export default main;
