@@ -1,7 +1,3 @@
-//my new src file
-// this is the real src file
-console.log("Hello, World!");
-function add(a, b) {
-    return a + b;
-}
-module.exports = { add };
+const a =  42;
+console.log(a + " is the real answer.");
+export { a };

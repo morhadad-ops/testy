@@ -1,0 +1,1 @@
+echo  'hello  from morhadad-ops-testy/permi+test.sh'
