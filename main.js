@@ -1,5 +1,6 @@
-const main  = () => {
-    console.log("Hello, World!");
-};
+const main = require('./external.js');
 
-main();
+console.log("Main Module:");
+console.log(main.extarnal); 
+
+exports.main = main;
