@@ -18,7 +18,7 @@ class question {
 // Example usage:
 const quizQuestion = new question();
 quizQuestion.displayQuestion();
-const userAnswer = "C"; // This would typically come from user input
+const userAnswer = "A"; // This would typically come from user input
 if (quizQuestion.checkAnswer(userAnswer)) {
   console.log("Correct!");
 } else {
