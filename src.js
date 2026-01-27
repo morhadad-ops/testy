@@ -22,5 +22,5 @@ const userAnswer = "C"; // This would typically come from user input
 if (quizQuestion.checkAnswer(userAnswer)) {
   console.log("Correct!");
 } else {
-  console.log("Incorrect. The correct answer is not yours it is  " + quizQuestion.correctAnswer);
+  console.log("Absolutly Incorrect. The correct answer is not yours it is  " + quizQuestion.correctAnswer);
 }
